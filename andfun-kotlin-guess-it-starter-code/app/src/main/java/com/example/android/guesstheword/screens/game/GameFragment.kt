@@ -56,7 +56,7 @@ class GameFragment : Fragment() {
                 container,
                 false
         )
-        Log.i("GameFragment", "Called provider of")
+        Log.i("GameViewModel", "Called provider of")
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
         resetList()
