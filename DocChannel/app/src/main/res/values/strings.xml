@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">DocChannel</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="hint">Enter Phone Number</string>
+    <string name="txtID">ID</string>
+    <string name="txtName">Name</string>
+    <string name="txtAge">Age</string>
+    <string name="txtContact">Contact</string>
+    <string name="btnSave">Save</string>
+    <string name="btnChannelDoc">Channel Doctor</string>
+    <string name="btnLabTest">Lab Tests</string>
+    <string name="btnHistory">History</string>
+    <string name="txtDocCat">Doctor Category</string>
+    <string name="txtDoc">Doctor</string>
+    <string name="txtDocFee">Doctor Fee</string>
+    <string name="txtHospitalFee">Hospital Charges</string>
+    <string name="txtTotalChannel">Total Channeling Fee</string>
+    <string name="btnHome">Home</string>
+    <string name="btnOK">OK</string>
+    <string name="txtTest">Test</string>
+    <string name="btnChannel">Channel</string>
+    <string name="txtTotal">Total</string>
+    <string name="txt">Channeling</string>
+    <string name="txtTests">Test Details</string>
+    <string name="btnLogout">Logout</string>
+
+    <string-array name="DoctorCategory">
+        <item>Dermatologist</item>
+        <item>Dermatologist</item>
+        <item>Cardiologist</item>
+        <item>Endocrinologist</item>
+        <item>Psychiatrist</item>
+        <item> General surgeon</item>
+    </string-array>
+
+
+
+    <string-array name="Tests">
+        <item>Complete Blood count</item>
+        <item> Lipid Panel</item>
+        <item> Liver Panel</item>
+        <item>Urinalysis</item>
+        <item>Cultures</item>
+    </string-array>
+
+
+
+
+
+
+</resources>
