@@ -71,33 +71,36 @@
 
         <Button
             android:id="@+id/ans1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="169dp"
             android:layout_height="49dp"
-            android:text="Android 12"
             android:layout_marginStart="120dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="correct"
+            android:text="Android 12"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ans2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="169dp"
             android:layout_height="50dp"
-            android:text="Android 10"
             android:layout_marginStart="120dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="wrong1"
+            android:text="Android 10"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ans3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="171dp"
             android:layout_height="53dp"
-            android:text="Android 11"
             android:layout_marginStart="120dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="wrong2"
+            android:text="Android 11"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button

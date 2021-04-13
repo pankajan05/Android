@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import static android.app.Activity.*;
 
 public class endPage extends AppCompatActivity {
@@ -21,10 +23,13 @@ public class endPage extends AppCompatActivity {
         setContentView(R.layout.activity_end_page);
 
         congrats = findViewById(R.id.congrats);
+        TextView score = findViewById(R.id.score);
 
         Intent intents = getIntent();
         String name = intents.getStringExtra("username");
+        int total = intents.getIntExtra("total", 0);
         congrats.setText("Congratulations " + name);
+        score.setText("Your score is " + total);
 
     }
 

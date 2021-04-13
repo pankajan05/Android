@@ -70,30 +70,32 @@
             android:layout_width="169dp"
             android:layout_height="49dp"
             android:layout_marginStart="120dp"
+            android:onClick="correct"
             android:text="Toast"
             android:textColor="@color/black"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/ans2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="169dp"
             android:layout_height="50dp"
-            android:text="Alert Box"
             android:layout_marginStart="120dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="wrong1"
+            android:text="Alert Box"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/ans3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="171dp"
             android:layout_height="53dp"
-            android:text="None of the above"
             android:layout_marginStart="120dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="wrong2"
+            android:text="None of the above"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
